@@ -58,3 +58,17 @@ footer {
 }
 /*DO NOT MODIFY ANY CODE ABOVE*/
 /*PUT YOUR CSS CODE FROM THIS POINT ONWARD*/
+
+.ball {
+	position: absolute;
+	animation: ease-in bounce 2s infinite;
+}
+
+@keyframes bounce {
+	0%, 100% {
+		bottom: 300px;
+	}
+	50% {
+		bottom: 0;
+	}
+}

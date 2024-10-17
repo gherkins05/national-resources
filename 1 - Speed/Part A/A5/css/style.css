@@ -43,3 +43,12 @@ footer {
 
 /*DO NOT MODIFY ANY CODE ABOVE*/
 /*PUT YOUR CSS CODE FROM THIS POINT ONWARD*/
+
+img {
+  object-fit: cover;
+  max-height: calc(100vh - 300px);
+  filter: grayscale(100%);
+}
+img:hover {
+  filter: grayscale(0%);
+}

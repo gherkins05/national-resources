@@ -37,3 +37,24 @@ footer {
 }
 /*DO NOT MODIFY ANY CODE ABOVE*/
 /*PUT YOUR CSS CODE FROM THIS POINT ONWARD*/
+
+#circle-square {
+	width: 100px;
+	height: 100px;
+	animation: 2s circleSquare infinite;
+}
+
+@keyframes circleSquare {
+	0% {
+		background-color: yellow;
+		border-radius: 0;
+	}
+	50% {
+		background-color: red;
+		border-radius: 50%;
+	}
+	100% {
+		background-color: yellow;
+		border-radius: 0;
+	}
+}

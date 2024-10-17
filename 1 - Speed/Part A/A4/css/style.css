@@ -43,3 +43,45 @@ footer {
 
 /*DO NOT MODIFY ANY CODE ABOVE*/
 /*PUT YOUR CSS CODE FROM THIS POINT ONWARD*/
+
+#smiley-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#button-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#button-container > button {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+}
+
+#smiley {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  transform: rotate(90deg);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  transition: all 0.5s;
+}
+
+.medium {
+  background-color: #e2b045;
+}
+.happy {
+  background-color: #00ff00;
+}
+.sad {
+  background-color: #ff0000;
+}
