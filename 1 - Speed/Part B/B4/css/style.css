@@ -38,4 +38,27 @@ footer {
 
 /*DO NOT MODIFY ANY CODE ABOVE*/
 /*PUT YOUR CSS CODE FROM THIS POINT ONWARD*/
+img {
+	user-select: none;
+}
 
+.slider-container {
+	position: relative;
+}
+
+#customSlider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	backdrop-filter: blur(3px);
+	display: flex;
+	justify-content: flex-end;
+}
+
+#sliderSelector {
+	width: 2px;
+	background-color: #f00;
+	cursor: pointer;
+}

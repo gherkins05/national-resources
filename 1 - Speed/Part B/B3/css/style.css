@@ -37,3 +37,62 @@ footer {
 }
 /*DO NOT MODIFY ANY CODE ABOVE*/
 /*PUT YOUR CSS CODE FROM THIS POINT ONWARD*/
+
+#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 800px;
+}
+
+#color {
+	width: 100%;
+	height: 300px;
+	background-color: #000000;
+}
+
+#sliders {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: left;
+}
+
+input[type=range] {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #fff;
+	cursor: pointer;
+	border: 1px solid #000;
+	margin-top: -10px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+	border-radius: 5px;
+	height: 20px;
+}
+#red::-webkit-slider-runnable-track {
+	background-image: linear-gradient(to right, #000, #f00);
+}
+#green::-webkit-slider-runnable-track {
+	background-image: linear-gradient(to right, #000, #0f0);
+}
+#blue::-webkit-slider-runnable-track {
+	background-image: linear-gradient(to right, #000, #00f);
+}
+
+label {
+	font-size: 20px;
+	margin: 10px 0;
+}
